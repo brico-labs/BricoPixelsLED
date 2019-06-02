@@ -1,0 +1,18 @@
+(module BricoPixel_pad_4x (layer F.Cu) (tedit 5CF02F5D)
+  (fp_text reference J1 (at -0.472591 0.524153) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Conn_01x01_Female (at -0.472591 -0.475847) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole custom (at 0 0) (size 3 3) (drill 2.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0 -2.159) (xy 0.635 -2.032) (xy 1.27 -1.524) (xy 2.286 0) (xy 2.921 1.143)
+         (xy 2.286 1.651) (xy 1.397 2.032) (xy 0.762 2.159) (xy 0 2.159) (xy -0.762 2.159)
+         (xy -1.397 2.032) (xy -2.667 1.397) (xy -3.048 1.016) (xy -2.413 -0.127) (xy -1.397 -1.524)
+         (xy -0.762 -2.032)) (width 0.15))
+    ))
+)

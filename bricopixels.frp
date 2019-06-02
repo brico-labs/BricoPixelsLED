@@ -1,0 +1,24 @@
+.HEA
+.TIM Mon 27 May 2019 20:26:59 CEST
+.APP "Eeschema 5.0.2-5.fc29"
+.TYP FULL
+
+.ADD_COM     D1     "WS2812B"     "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+.ADD_COM     J1     "Conn_01x01_Female"     "$noname"
+.ADD_COM     C1     "0.1uF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     J2     "Conn_01x01_Female"     "$noname"
+
+
+.ADD_TER   D1   3     "GND"
+.TER       C1   2
+
+.ADD_TER   D1   4     "Net-(D1-Pad4)"
+.TER       J1   1
+
+.ADD_TER   D1   2     "Net-(D1-Pad2)"
+.TER       J2   1
+
+.ADD_TER   D1   1     "VCC"
+.TER       C1   1
+
+.END
