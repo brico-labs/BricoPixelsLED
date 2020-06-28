@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.2-5.fc29)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.2-1.fc30)
 
   (general
     (thickness 1.6)
@@ -12,7 +12,8 @@
   (page User 148.006 105.004)
   (title_block
     (title "WS2812B BricoPixels custom PCB")
-    (rev 0.1)
+    (date 2019-06-02)
+    (rev 1)
     (company BricoLabs)
     (comment 1 "Diseñado: Pablo G.")
   )
@@ -46,8 +47,6 @@
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
-    (segment_width 0.2)
-    (edge_width 0.2)
     (via_size 0.8)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -57,6 +56,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.2)
+    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -116,7 +117,7 @@
     (add_net VCC)
   )
 
-  (module LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5CF02DEE) (tstamp 5CF98DA6)
+  (module LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm (layer F.Cu) (tedit 5D095553) (tstamp 5CF98DA6)
     (at 71.8058 32.766)
     (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
     (tags "LED RGB NeoPixel")
@@ -147,6 +148,7 @@
     (fp_line (start -3.65 2.75) (end 3.65 2.75) (layer F.SilkS) (width 0.12))
     (fp_line (start 3.65 2.75) (end 3.65 1.6) (layer F.SilkS) (width 0.12))
     (fp_circle (center 0 0) (end 0 -2) (layer F.Fab) (width 0.1))
+    (fp_poly (pts (xy 3.6576 2.7432) (xy 3.6576 2.286) (xy 3.2004 2.7432)) (layer F.SilkS) (width 0.1))
     (pad 3 smd rect (at 2.45 1.6) (size 1.5 1) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (pad 4 smd rect (at 2.45 -1.6) (size 1.5 1) (layers F.Cu F.Paste F.Mask)

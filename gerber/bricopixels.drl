@@ -1,0 +1,21 @@
+M48
+; DRILL file {KiCad 5.1.2-1.fc30} date Tue 18 Jun 2019 23:27:32 CEST
+; FORMAT={2:4/ absolute / inch / suppress leading zeros}
+; #@! TF.CreationDate,2019-06-18T23:27:32+02:00
+; #@! TF.GenerationSoftware,Kicad,Pcbnew,5.1.2-1.fc30
+FMAT,2
+INCH,TZ
+T1C0.0157
+T2C0.1024
+%
+G90
+G05
+T1
+X28670Y-12900
+T2
+X25220Y-12870
+X28220Y-15960
+X31300Y-12940
+X28300Y-9860
+T0
+M30
